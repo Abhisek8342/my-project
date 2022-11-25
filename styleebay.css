@@ -1,0 +1,85 @@
+.float{
+   border: none;
+   font-size: 16px;
+   padding: 6px;
+   margin-left: 100px;
+    margin:5px ;
+ size: 20px;
+ color: white;
+ background-color: orangered;
+}
+.float:hover{
+  background-color: purple;
+}
+.dropdwon{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    background-color: white;
+    color: black;
+    padding: 3px;
+    position: absolute;
+    min-width: 300px;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display:block; }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #8e573e;}
+  .right{
+    float: right;
+    /* margin: 5px; */
+  }
+ .litu:hover{
+    color: white;
+    background-color:orange ;
+  }
+  .prod{
+    float: left;
+  }
+  img:hover{
+    transform: scale(1.2);
+  }
+  .mid{
+    color: white;
+  }
+  .btn:hover{
+    background-color: white;
+    color: rgba(255, 25, 0, 0.542);
+  }
+  .ali{
+    float: left;
+    margin:35px ;
+   
+  }
+  .ali a  {
+    text-decoration: none;
+    /* list-style: none; */
+  }
+  li{
+    list-style: none;
+    padding: 5px;
+  }
+  .ali h1{
+    color: black;
+  }
+  .raj:hover{
+   background-color: dodgerblue;
+  }
+  .raj{
+    background-color: rgb(51, 0, 255);
+  }
